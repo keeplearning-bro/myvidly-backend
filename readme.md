@@ -1,14 +1,6 @@
-## Introduction By Duke
-1. 后台启动时，使用的端口时3900，前端链接时，在.env中配置了相应的端口：3900，否则无法链接。
-2. 后台启动前，需要export密钥: export vidly_jwtPrivateKey=yourSecureKey, 然后执行 node seed.js，将数据写入数据库。
-3. 
 ## Introduction
 
-This project is the backend of Vidly, an imaginary video rental app. I've used Vidly as an example in several of my online programming courses, such as:
-
-- https://codewithmosh.com/p/mastering-react
-- https://codewithmosh.com/p/the-complete-node-js-course
-- https://codewithmosh.com/p/asp-net-mvc
+This project is the backend of Vidly, an imaginary video rental app. 
 
 This is the implementation of Vidly in Node.js.
 
@@ -50,7 +42,7 @@ This will launch the Node server on port 3900. If that port is busy, you can set
 
 Open up your browser and head over to:
 
-http://localhost:3900/api/genres
+http://127.0.0.1:3900/api/genres
 
 You should see the list of genres. That confirms that you have set up everything successfully.
 
